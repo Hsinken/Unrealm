@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "Unrealm", targets: ["Unrealm", "UnrealmObjC"])
     ],
     dependencies: [
-        .package(url: "https://github.com/realm/realm-swift.git", exact: "10.49.2"),
+        .package(url: "https://github.com/realm/realm-swift.git", "10.39.0"..<"10.49.2"),
         .package(url: "https://github.com/wickwirew/Runtime.git", from: "2.2.2")
     ],
     targets: [
